@@ -1,4 +1,75 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 5px;
 }
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    color: crimson;
+}
+span{
+    color:crimson;
+    font-stretch:ultra-condensed;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    color:rgba(255, 106, 89, 0.842);
+}
+.welcome-section{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.div-img{
+    width: 50%;
+    padding: 20px;
+}
+
+#first-img{
+    height: 500px;
+    width: 500px;
+    background-color:black;
+    border-radius: 100%;
+    border: 2px deeppink solid;
+}
+#second-img{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(255, 130, 14);
+    border-radius: 50%;
+    border: 2px deeppink solid;
+}
+.button-tap{
+    color: ghostwhite;
+   text-decoration: none;
+   padding: 8px 30px;
+   background: linear-gradient(orange, red);
+   border-radius: 5px;
+}
+.dream-big{
+    margin-top: 100px;
+    display: flex;
+}
+
+.experience-area{
+    display: flex;
+    
+}
+.shawdo{
+    box-shadow: 5px 7px 40px rgb(145, 118, 118);
+    height: 80%;
+    margin: 0px 20px;
+    padding:0px 20px 20px 20px;
+    border-radius: 8px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, red);
+    border-image-slice: 1;
+}
+ footer{
+     text-align: center;
+     margin: 50px 0px 10px;
+ }
